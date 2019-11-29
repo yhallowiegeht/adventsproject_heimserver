@@ -1,0 +1,41 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="arduino_functions" id="5KebY,-ltvxB7K^El}1(" x="30" y="34">
+    <statement name="SETUP_FUNC">
+      <block type="sensebox_wifi" id="5aO]nNu08JlCVjzNDCNd">
+        <field name="SSID">SSID</field>
+        <field name="Password">Password</field>
+        <next>
+          <block type="sensebox_display_beginDisplay" id="1ikdGV)!r%kdL#684%,N">
+            <next>
+              <block type="sensebox_display_show" id="U3P{*ZZ6+cy.3g9ZIcJq">
+                <statement name="SHOW">
+                  <block type="sensebox_display_printDisplay" id="rnRYHW45t=*g,n.8z9l}">
+                    <field name="COLOR">WHITE,BLACK</field>
+                    <value name="SIZE">
+                      <block type="math_number" id="g*bc@h)u^p)d}|G_|9Pp">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <value name="X">
+                      <block type="math_number" id="+w`GO_+:(Y:wI,_X3^0T">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="Y">
+                      <block type="math_number" id="+VF3{myZQ%(E#sb4MNZ0">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="printDisplay">
+                      <block type="sensebox_ip_address" id="QjUx?!%nd43EYTfc[uRm"></block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
