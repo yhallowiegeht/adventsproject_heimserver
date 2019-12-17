@@ -2,8 +2,8 @@
   <block type="arduino_functions" id="5KebY,-ltvxB7K^El}1(" x="-926" y="-742">
     <statement name="SETUP_FUNC">
       <block type="sensebox_wifi" id="LYr6Z^iIiV):fc/!F!{z">
-        <field name="SSID">Mehmet Scholl du Hurensohn</field>
-        <field name="Password">Wirhaben1neues</field>
+        <field name="SSID">SSID</field>
+        <field name="Password">Passwort</field>
         <next>
           <block type="sensebox_initialize_http_server" id="]K9[u_dEqlRZy_1}Ws#q">
             <field name="Port">80</field>
